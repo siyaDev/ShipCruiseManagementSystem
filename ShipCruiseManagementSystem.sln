@@ -1,0 +1,98 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShipCruiseManagementSystem", "ShipCruiseManagementSystem\ShipCruiseManagementSystem.csproj", "{8DAB626C-3059-49A0-83F3-A4798C20B9B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShipCruiseManagementSystem.Tests", "ShipCruiseManagementSystem.Tests\ShipCruiseManagementSystem.Tests.csproj", "{2CDDCDCD-2676-4C64-AB24-5F05821E4852}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project Services", "Project Services", "{63280C8C-17D7-4082-ACD3-435DCFA9E4CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business Logic", "Business Logic", "{75144A1B-8B85-4B98-ACF7-552F96FE253D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{24502A3C-D28F-4F55-A7ED-662EDA2091D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Windows Services", "Windows Services", "{80E076ED-194F-48D8-960A-D126BD92B77C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShipCruiseManagementSystem.Service", "ShipCruiseManagementSystem.Services\ShipCruiseManagementSystem.Service.csproj", "{6BF9249D-52A2-4FA5-93D0-CB0CE0F51A07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShipCruiseManagementSystem.Models", "ShipCruiseManagementSystem.Models\ShipCruiseManagementSystem.Models.csproj", "{211EC09F-B573-4679-A9B5-B14F3C4E4F0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShipCruiseManagementSystem.Services.TO", "ShipCruiseManagementSystem.Services.TO\ShipCruiseManagementSystem.Services.TO.csproj", "{EF1E7D96-C936-475C-8630-7F26E52A3CFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShipCruiseManagementSystem.Service.Broker", "ShipCruiseManagementSystem.Service.Broker\ShipCruiseManagementSystem.Service.Broker.csproj", "{39ABCE64-DD6D-4B25-AC52-1126624DA5D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShipCruiseManagementSystem.ServiceInterface", "ShipCruiseManagementSystem.Services.Inter\ShipCruiseManagementSystem.ServiceInterface.csproj", "{01F47645-86D3-450E-94C0-319035ED416B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShipCruiseManagementSystem.ServiceHost", "ShipCruiseManagementSystem.Service.UserHos\ShipCruiseManagementSystem.ServiceHost.csproj", "{5B7BC16C-8A0B-4694-A10C-16135BFDA752}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShipCruiseManagementSystem.ConsoleHost", "ShipCruiseManagementSystem.ConsoleHost\ShipCruiseManagementSystem.ConsoleHost.csproj", "{32BFC67F-E20B-495B-9B6E-6F79C05A3BB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShipCruiseManagementSystem.BL", "ShipCruiseManagementSystem.BL\ShipCruiseManagementSystem.BL.csproj", "{C9D18CFF-7A81-49C1-BD52-B351CF08E68B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShipCruiseManagementSystem.Share.Session", "ShipCruiseManagementSystem.Share.Session\ShipCruiseManagementSystem.Share.Session.csproj", "{C7F8B1C1-462C-4703-A333-6530E4C42257}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DAB626C-3059-49A0-83F3-A4798C20B9B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DAB626C-3059-49A0-83F3-A4798C20B9B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DAB626C-3059-49A0-83F3-A4798C20B9B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DAB626C-3059-49A0-83F3-A4798C20B9B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CDDCDCD-2676-4C64-AB24-5F05821E4852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CDDCDCD-2676-4C64-AB24-5F05821E4852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CDDCDCD-2676-4C64-AB24-5F05821E4852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CDDCDCD-2676-4C64-AB24-5F05821E4852}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BF9249D-52A2-4FA5-93D0-CB0CE0F51A07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BF9249D-52A2-4FA5-93D0-CB0CE0F51A07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BF9249D-52A2-4FA5-93D0-CB0CE0F51A07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BF9249D-52A2-4FA5-93D0-CB0CE0F51A07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{211EC09F-B573-4679-A9B5-B14F3C4E4F0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{211EC09F-B573-4679-A9B5-B14F3C4E4F0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{211EC09F-B573-4679-A9B5-B14F3C4E4F0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{211EC09F-B573-4679-A9B5-B14F3C4E4F0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF1E7D96-C936-475C-8630-7F26E52A3CFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF1E7D96-C936-475C-8630-7F26E52A3CFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF1E7D96-C936-475C-8630-7F26E52A3CFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF1E7D96-C936-475C-8630-7F26E52A3CFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39ABCE64-DD6D-4B25-AC52-1126624DA5D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39ABCE64-DD6D-4B25-AC52-1126624DA5D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39ABCE64-DD6D-4B25-AC52-1126624DA5D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39ABCE64-DD6D-4B25-AC52-1126624DA5D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01F47645-86D3-450E-94C0-319035ED416B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01F47645-86D3-450E-94C0-319035ED416B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01F47645-86D3-450E-94C0-319035ED416B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01F47645-86D3-450E-94C0-319035ED416B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B7BC16C-8A0B-4694-A10C-16135BFDA752}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B7BC16C-8A0B-4694-A10C-16135BFDA752}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B7BC16C-8A0B-4694-A10C-16135BFDA752}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B7BC16C-8A0B-4694-A10C-16135BFDA752}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32BFC67F-E20B-495B-9B6E-6F79C05A3BB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32BFC67F-E20B-495B-9B6E-6F79C05A3BB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32BFC67F-E20B-495B-9B6E-6F79C05A3BB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32BFC67F-E20B-495B-9B6E-6F79C05A3BB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9D18CFF-7A81-49C1-BD52-B351CF08E68B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9D18CFF-7A81-49C1-BD52-B351CF08E68B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9D18CFF-7A81-49C1-BD52-B351CF08E68B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9D18CFF-7A81-49C1-BD52-B351CF08E68B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7F8B1C1-462C-4703-A333-6530E4C42257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7F8B1C1-462C-4703-A333-6530E4C42257}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7F8B1C1-462C-4703-A333-6530E4C42257}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7F8B1C1-462C-4703-A333-6530E4C42257}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6BF9249D-52A2-4FA5-93D0-CB0CE0F51A07} = {63280C8C-17D7-4082-ACD3-435DCFA9E4CF}
+		{39ABCE64-DD6D-4B25-AC52-1126624DA5D3} = {63280C8C-17D7-4082-ACD3-435DCFA9E4CF}
+		{01F47645-86D3-450E-94C0-319035ED416B} = {63280C8C-17D7-4082-ACD3-435DCFA9E4CF}
+		{5B7BC16C-8A0B-4694-A10C-16135BFDA752} = {63280C8C-17D7-4082-ACD3-435DCFA9E4CF}
+		{211EC09F-B573-4679-A9B5-B14F3C4E4F0A} = {75144A1B-8B85-4B98-ACF7-552F96FE253D}
+		{C9D18CFF-7A81-49C1-BD52-B351CF08E68B} = {75144A1B-8B85-4B98-ACF7-552F96FE253D}
+		{EF1E7D96-C936-475C-8630-7F26E52A3CFF} = {24502A3C-D28F-4F55-A7ED-662EDA2091D8}
+		{C7F8B1C1-462C-4703-A333-6530E4C42257} = {24502A3C-D28F-4F55-A7ED-662EDA2091D8}
+	EndGlobalSection
+EndGlobal
